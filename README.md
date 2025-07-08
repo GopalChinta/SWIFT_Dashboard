@@ -1,70 +1,111 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### ✅ `README.md`
 
-In the project directory, you can run:
+```md
+# SWIFT Dashboard – Front-End Internship Assignment
 
-### `npm start`
+This is a React-based dashboard project built for the **SWIFT Front-End Internship Assignment**.  
+It demonstrates UI development, data handling from APIs, routing, custom pagination, sorting, search, theming, and dynamic profile view.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- 🔗 **Routing** between Dashboard and Profile pages
+- 📋 **Dashboard Page**:
+  - Loads 500 records from dummy comments API
+  - Custom **pagination** (10, 50, 100 records/page)
+  - **Partial search** by name or email
+  - **Sorting** on Post ID, Name, and Email (cyclic: none → asc → desc)
+- 👤 **Profile Page**:
+  - Displays selected comment details dynamically
+  - Auto-generated avatar via `ui-avatars.com`
+- 🌙 **Light/Dark Theme Toggle** with persistence
+- 📱 **Responsive layout**, cross-browser compatible
+- 💾 Local storage used to remember UI preferences
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React (CRA)
+- React Router DOM
+- Plain JavaScript
+- Custom CSS (no UI libraries)
+- Dummy API: [JSONPlaceholder](https://jsonplaceholder.typicode.com)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Folder Structure
 
-### `npm run eject`
+```
+---
+src/
+├── components/         # Reusable UI components (Header, Pagination, etc.)
+├── pages/              # Profile and Dashboard pages
+├── styles/             # CSS for layout and theming
+├── utils/              # LocalStorage helper (optional)
+├── App.jsx             # Routes setup
+└── index.js
+---
+````
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ▶️ Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/GopalChinta/SWIFT_Dashboard.git
+cd SWIFT_Dashboard
+npm install
+npm start
+````
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🔗 APIs Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Comments: `https://jsonplaceholder.typicode.com/comments`
+* Users: `https://jsonplaceholder.typicode.com/users`
+* Avatar: `https://ui-avatars.com/api`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ✅ Status
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> ✅ All features implemented as per assignment instructions
+> ✅ Mobile-friendly, clean UI
+> ✅ Functional across Chrome, Edge, and Firefox
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🙌 Author
 
-### Making a Progressive Web App
+**Gopal Chinta**
+[GitHub Profile](https://github.com/GopalChinta)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+````
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### ✅ To Push It:
 
-### Deployment
+1. Create the file:
+```bash
+touch README.md
+````
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Paste the content above into it.
 
-### `npm run build` fails to minify
+3. Then push:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git add README.md
+git commit -m "Add README"
+git push origin master
+```
+
+---
+
+
