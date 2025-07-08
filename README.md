@@ -12,22 +12,22 @@ It demonstrates UI development, data handling from APIs, routing, custom paginat
 
 ## 🚀 Features
 
-- 🔗 **Routing** between Dashboard and Profile pages
-- 📋 **Dashboard Page**:
+- 🔗 Routing between Dashboard and Profile pages
+- 📋 Dashboard Page:
   - Loads 500 records from dummy comments API
-  - Custom **pagination** (10, 50, 100 records/page)
-  - **Partial search** by name or email
-  - **Sorting** on Post ID, Name, and Email (cyclic: none → asc → desc)
-- 👤 **Profile Page**:
+  - Custom pagination (10, 50, 100 records/page)
+  - Partial search by name or email
+  - Sorting on Post ID, Name, and Email (cyclic: none → asc → desc)
+- 👤 Profile Page:
   - Displays selected comment details dynamically
   - Auto-generated avatar via `ui-avatars.com`
-- 🌙 **Light/Dark Theme Toggle** with persistence
-- 📱 **Responsive layout**, cross-browser compatible
+- 🌙 Light/Dark Theme Toggle with persistence
+- 📱 Responsive layout, cross-browser compatible
 - 💾 Local storage used to remember UI preferences
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - React (CRA)
 - React Router DOM
@@ -55,7 +55,7 @@ src/
 
 ## ▶️ Run Locally
 
-```bash
+```
 git clone https://github.com/GopalChinta/SWIFT_Dashboard.git
 cd SWIFT_Dashboard
 npm install
@@ -92,7 +92,7 @@ npm start
 ### ✅ To Push It:
 
 1. Create the file:
-```bash
+```
 touch README.md
 ````
 
@@ -100,7 +100,7 @@ touch README.md
 
 3. Then push:
 
-```bash
+```
 git add README.md
 git commit -m "Add README"
 git push origin master
